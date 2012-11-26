@@ -55,7 +55,7 @@
 		private var mouseUpFlag:Boolean;
 		public function strawHatMainScene():void {
 			createWorld();
-			makeDebugDraw();
+			//makeDebugDraw();
 			createWall();
 			createJoint();
 			loadImg();
