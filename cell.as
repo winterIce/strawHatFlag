@@ -50,7 +50,7 @@
 			circleShape.SetRadius(this.property.r/pixelsPerMeter);
 			var fixtureDef:b2FixtureDef = new b2FixtureDef();
 			fixtureDef.shape = circleShape;
-			fixtureDef.density = 0.0;
+			fixtureDef.density = 1;
 			fixtureDef.friction = 0.4;
 			fixtureDef.restitution = 0.3;
 			this._circle = this.world.CreateBody(bodyDef);

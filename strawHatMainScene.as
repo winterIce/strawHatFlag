@@ -31,7 +31,6 @@
 	import flash.display.Bitmap;
 	import flash.display.BitmapData;
 	import flash.display.Graphics;
-	import flash.display.*;
     import flash.net.URLRequest;
 
 	public class strawHatMainScene extends Sprite
@@ -56,7 +55,7 @@
 		public function strawHatMainScene():void {
 			createWorld();
 			//makeDebugDraw();
-			createWall();
+			//createWall();
 			createJoint();
 			loadImg();
 			addEventListener(MouseEvent.MOUSE_DOWN,onMouseDown);
